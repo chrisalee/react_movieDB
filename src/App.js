@@ -9,14 +9,14 @@ import About from "./pages/About";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={"/react_movieDB"}>
       <Nav />
       <Routes>
         <Route path="/react_movieDB" element={<Home />} />
         <Route path="/react_movieDB/movies/:id" element={<SingleMovie />} />
         <Route path="/react_movieDB/about" element={<About />} />
         <Route path="/" exact element={<Home />} />
-      </Routes>
+      </Routes> 
       <Footer />
     </Router>
   );

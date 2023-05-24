@@ -29,7 +29,7 @@ const About = () => {
         </p>
       </div>
       <div className="box">
-        <img src={"https://chrisalee.github.io/react_movieDB/about.png"} alt="about-pic" loading="lazy" />
+        <img src={"https://chrisalee.github.io/react_movieDB/assets/about.png"} alt="about-pic" loading="lazy" />
       </div>
     </section>
   );
